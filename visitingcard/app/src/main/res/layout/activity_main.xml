@@ -8,22 +8,22 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="118dp"
-        android:layout_height="120dp"
+        android:layout_width="125dp"
+        android:layout_height="117dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintHorizontal_bias="0.977"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.061"
-        tools:srcCompat="@drawable/logo"
-        android:contentDescription="@string/todo" />
+        app:layout_constraintVertical_bias="0.079"
+        tools:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/main"
-        android:layout_width="358dp"
+        android:layout_width="453dp"
         android:layout_height="73dp"
-        android:text="@string/the_vtu_florists"
+        android:text="@string/the_vtu_florists1"
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,6 +31,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.073" />
+
+
+    <TableRow
+        android:id="@+id/hr"
+        android:layout_width="590dp"
+        android:layout_height="4dp"
+        android:background="#444"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234" />
 
     <TextView
         android:id="@+id/name"
