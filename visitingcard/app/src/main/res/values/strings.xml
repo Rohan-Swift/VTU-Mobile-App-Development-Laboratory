@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">visitingcard</string>
+    <string name="the_vtu_florists">The VTU Florists</string>
+    <string name="name_karidasappa">Name: Karidasappa</string>
+    <string name="job_title_salesman">Job Title: Salesman</string>
+    <string name="address_belagavi_karnataka">Address: Belagavi, Karnataka</string>
+    <string name="email_karidasappa_flower_vtu_com">Email: karidasappa.flower@vtu.com</string>
+    <string name="phone_9876543210">Phone : 9876543210</string>
+    <string name="todo">TODO</string>
+</resources>
