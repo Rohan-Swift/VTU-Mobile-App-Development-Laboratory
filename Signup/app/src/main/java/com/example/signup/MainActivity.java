@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         suuname=(EditText)findViewById(R.id.suname);
         suupass=(EditText)findViewById(R.id.supass);
-        signupbut=(Button)findViewById(R.id.subut);
+        signupbut=(Button)findViewById(R.id.subtn);
 
         signupbut.setOnClickListener(this);
 
@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view){
         switch (view.getId()){
-            case R.id.signupbut:
+            case R.id.subtn:
                 String username, password;
                 username = suuname.getText().toString();
                 password = suupass.getText().toString();

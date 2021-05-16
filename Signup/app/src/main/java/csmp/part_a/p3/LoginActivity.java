@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         loginname=(EditText)findViewById(R.id.loname);
         loginpass=(EditText)findViewById(R.id.lopass);
 
-        loginbut=(Button)findViewById(R.id.subut);
+        loginbut=(Button)findViewById(R.id.subtn);
 
         getValueFromUserBundle();
 
