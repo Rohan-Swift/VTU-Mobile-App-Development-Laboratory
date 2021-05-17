@@ -22,3 +22,7 @@ First 8 programs in the VTU, Belagavi syllabus for Android App Development Labor
     and password match, then move to the next activity which displays a message- Successful Login. Else it should display message, login failed. User is given only     
     2 attempts after that display a toast message saying failed login attempt and disable the sign in button. Use bundle transfer to transfrer information from one 
     activity to another
+
+
+4. Develop an application to set an image as wallpaper. On click of a button, the wallpaper image should start to change randomly every 30 seconds.
+
