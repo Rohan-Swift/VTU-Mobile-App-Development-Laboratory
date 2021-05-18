@@ -48,13 +48,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view) {
-        if(view.getId()==R.id.start)
+        if(view.getId()==R.id.startbut)
         {
             Counter();
             start.setEnabled(false);
             stop.setEnabled(true);
         }
-        else if (view.getId()==R.id.stop)
+        else if (view.getId()==R.id.stopbut)
         {
             handler.removeCallbacks(runnable);
             start.setEnabled(true);
