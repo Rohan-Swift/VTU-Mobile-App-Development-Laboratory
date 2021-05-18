@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="startbutton">starts</string>
+    <string name="stopbutton">stops</string>
+    <string name="counter_app">Counter App</string>
+    <string name="start">Start</string>
+    <string name="stop">stop</string>
+</resources>
