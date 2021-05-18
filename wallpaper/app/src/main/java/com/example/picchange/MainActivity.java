@@ -43,15 +43,19 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else if(prev==2) {
                     drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.two, null);
+                    prev=3;
                 }
                 else if(prev==3) {
                     drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.three, null);
+                    prev=4;
                 }
                 else if(prev==4) {
                     drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.four, null);
+                    prev=5;
                 }
                 else if(prev==5) {
                     drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.five, null);
+                    prev=1;
                 }
                 Bitmap wallpaper = ((BitmapDrawable)drawable).getBitmap(); try {
                     wlp.setBitmap(wallpaper);
@@ -59,4 +63,4 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
             }
-        },0,3000); } }
+        },0,300); } }
