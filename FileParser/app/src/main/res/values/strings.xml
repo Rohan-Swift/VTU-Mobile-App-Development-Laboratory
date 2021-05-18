@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">parse</string>
+    <string name="parse_xml">Parse xml</string>
+    <string name="parse_json">Parse Json</string>
+</resources>

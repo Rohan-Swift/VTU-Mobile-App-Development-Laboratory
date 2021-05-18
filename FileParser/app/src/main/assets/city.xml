@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities>
+    <city>
+        <City_name>Bangalore</City_name>
+        <Latitude>12.9716N</Latitude>
+        <Longitude>77.5946E</Longitude>
+        <Temperature>25</Temperature>
+        <Humidity>90%</Humidity>
+    </city>
+
+    <city>
+        <City_name>Arendal</City_name>
+        <Latitude>58.4618N/</Latitude>
+        <Longitude>8.7724E</Longitude>
+        <Temperature>20</Temperature>
+        <Humidity>65%</Humidity>
+    </city>
+</cities>

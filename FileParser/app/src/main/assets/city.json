@@ -1,0 +1,18 @@
+{
+  "cities": [
+    {
+      "City_name": "Mysore",
+      "Latitude": 12.295,
+      "Longitude": 76.639,
+      "Temperature": 22,
+      "Humidity": "90%"
+    },
+    {
+      "City_name": "Mangaluru",
+      "Latitude": 12.9141N,
+      "Longitude": 74.8560E,
+      "Temperature": 25,
+      "Humidity": "70%"
+    }
+  ]
+}
