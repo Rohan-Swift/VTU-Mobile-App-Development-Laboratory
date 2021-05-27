@@ -38,3 +38,10 @@ First 8 programs in the VTU, Belagavi syllabus for Android App Development Labor
 
 8. Create an activity like a phone dialer with CALL and SAVE buttons. On pressing the CALL button, it must call the phone number and on pressing the SAVE button it must save the number to the phone contacts.
 
+********************************************************************************************************************************************************************
+
+If this helped you in anyway please consider donating which would help me a lot and motivate me to do much more 
+Check out this link below :)
+
+https://www.buymeacoffee.com/RohanSwift
+
