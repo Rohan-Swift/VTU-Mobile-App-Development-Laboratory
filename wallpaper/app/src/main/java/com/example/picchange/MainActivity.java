@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         tim = new Timer();
         wlp = WallpaperManager.getInstance(this);
         wall = findViewById(R.id.button);
-        wall.setOnClickListener(new View.OnClickListener() { @Override public void onClick(View view) {
+        wall.setOnClickListener(new View.OnClickListener() { 
+            @Override public void onClick(View view) {
             setWallpaper();
         }
         });
@@ -57,9 +58,12 @@ public class MainActivity extends AppCompatActivity {
                     drawable = ResourcesCompat.getDrawable(getResources(), R.drawable.five, null);
                     prev=1;
                 }
-                Bitmap wallpaper = ((BitmapDrawable)drawable).getBitmap(); try {
+                Bitmap wallpaper = ((BitmapDrawable)drawable).getBitmap(); 
+                try {
                     wlp.setBitmap(wallpaper);
-                } catch (IOException e) {
+                } 
+                catch (IOException e) 
+                {
                     e.printStackTrace();
                 }
             }
